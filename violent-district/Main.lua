@@ -1,6 +1,7 @@
-local repo = "https://raw.githubusercontent.com/Lizardspikes/Scripts/main/violent-district/"
+local obsidian = "https://raw.githubusercontent.com/deividcomsono/Obsidian/main/"
+local repo = "https://raw.githubusercontent.com/Lizardspikes/Scripts/refs/heads/main/violent-district/"
 
-local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
+local Library = loadstring(game:HttpGet(obsidian .. "Library.lua"))()
 local Options = Library.Options
 
 local Window = Library:CreateWindow({
