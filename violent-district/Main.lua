@@ -1,4 +1,4 @@
-local repo = "https://raw.githubusercontent.com/yourname/yourrepo/main/"
+local repo = "https://raw.githubusercontent.com/Lizardspikes/Scripts/main/violent-district/"
 
 local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
 local Options = Library.Options
